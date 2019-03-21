@@ -58,6 +58,9 @@ case $1 in
     jingle)
       playsound /usr/bin/carglass-mp3/carglass_jingle.ogg
     ;;
+    carglouch)
+      playsound /usr/bin/carglass-mp3/carglouch.ogg
+    ;;
     *)
       help  
     ;;
