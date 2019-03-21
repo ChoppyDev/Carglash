@@ -35,6 +35,14 @@ logo() {
                                                                                                                                                                '
 }
 
+help() {
+    echo "Usage: carglass [ARGS]
+            Default : Plays the carglass sound
+            ARGS:
+                olivier - Plays the famous 'Bonjour, je suis olivier de Carglass'
+    
+    "
+}
 
 
 case $1 in
@@ -42,6 +50,9 @@ case $1 in
     logo
     echo "Bonjour, je suis olivier de Carglass"
     playsound ~/Documents/olivier.ogg
+    ;;
+    help)
+        help
     ;;
     *)
     logo
