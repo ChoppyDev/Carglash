@@ -1,5 +1,11 @@
 # Carglash
 
+A little Shell project inspired to a french TV advertisement
+ 
+## How to install
+
+> sudo ./install_carglass.sh
+
 ## Usage:
     carglass [ARG]
 
