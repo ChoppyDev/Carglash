@@ -37,9 +37,10 @@ logo() {
 
 help() {
     echo "Usage: carglass [ARGS]
-            Default : Plays the carglass sound
             ARGS:
                 olivier - Plays the famous 'Bonjour, je suis olivier de Carglass'
+                jingle  - Plays the carglass Jingle
+                help    - Print the help command
     
     "
 }
@@ -49,14 +50,15 @@ case $1 in
     olivier)
     logo
     echo "Bonjour, je suis olivier de Carglass"
-    playsound ~/Documents/olivier.ogg
+    playsound /usr/bin/carglass-mp3/olivier.ogg
     ;;
     help)
-        help
+      help
+    ;;
+    jingle)
+      playsound /usr/bin/carglass-mp3/carglass_jingle.ogg
     ;;
     *)
-    logo
-    playsound ~/Documents/bonjour_olivier.ogg
+      help  
     ;;
-
 esac
