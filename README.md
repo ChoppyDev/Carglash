@@ -1,2 +1,12 @@
 # Carglash
-Un shell Script pour s'amuser :D
+
+##Usage:
+    carglass [ARG]
+
+
+##ARGS:
+
+    - jingle
+    - olivier
+    - help
+
